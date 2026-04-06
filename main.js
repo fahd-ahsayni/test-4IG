@@ -14,7 +14,12 @@ function div(a, b) {
     return a / b;
 }
 
+function pow(a, b) {
+    return Math.pow(a, b);
+}
+
 console.log(sum(1, 2));
 console.log(sub(1, 2));
 console.log(mul(1, 2));
 console.log(div(1, 2));
+console.log(pow(1, 2));
